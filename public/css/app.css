@@ -36,6 +36,8 @@ nav button{
     background-color: beige;
     
 
+}
+
 footer{
     background-color: #314584;
     width: 100%;
@@ -83,8 +85,85 @@ footer i{
     justify-content: center;
     align-items: center;
     color: white;
+    gap: 30px;
 }
 
 .copie{
     text-align: center;
+}
+
+.email input {
+    width: 600px;
+    height: 60px;
+    background-color: #F4FAFE;
+    border: none;
+    padding: 0px 20px;
+    color: #314584;
+    margin-bottom: 15px;
+}
+.text input {
+    width: 600px;
+    height: 60px;
+    background-color: #F4FAFE;
+    border: none;
+    padding: 0px 20px;
+    color: #314584;
+    margin-bottom: 15px;
+}
+
+.s3{
+padding-inline: 100px;
+padding-bottom: 100px;
+
+}
+
+.subt{
+    display: flex;
+    gap: 30px;
+}
+
+.flx h5{
+
+font-size: 1rem;
+color: #FF3946;
+
+}
+
+.flx, h2 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 50px;
+    color: #314584;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.textarea input{
+    background-color: #F4FAFE;
+    border: none;
+    width: 1230px;
+    padding: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #314584;
+    padding-bottom: 50px;
+
+}
+
+.button{
+    padding-top: 50px;
+    text-align: center;
+}
+.button a{
+    background-color: #FF3946;
+    border: 2px solid #FF3946;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #F4FAFE;
+    font-weight: bold;
 }
