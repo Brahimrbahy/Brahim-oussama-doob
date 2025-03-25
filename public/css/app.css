@@ -11,15 +11,10 @@ nav{
     padding-top: 30px;
     gap: 180px;
     font-family: "Source Sans 3", sans-serif;
-<<<<<<< HEAD
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-=======
    font-optical-sizing: auto;
-   font-weight: 600;
-   font-style: normal;
->>>>>>> oussama
 }
 .link-nav a{
    text-decoration: none;
@@ -40,11 +35,8 @@ nav button{
     padding: 10px;
     color: red;
     background-color: beige;
-<<<<<<< HEAD
     
 
-=======
->>>>>>> oussama
 }
 
 footer{
@@ -94,10 +86,7 @@ footer i{
     justify-content: center;
     align-items: center;
     color: white;
-<<<<<<< HEAD
     gap: 30px;
-=======
->>>>>>> oussama
 }
 
 .copie{
@@ -178,6 +167,7 @@ color: #FF3946;
     text-decoration: none;
     color: #F4FAFE;
     font-weight: bold;
+     }
 .second-part{
     display: flex;
     padding-top: 40px;
