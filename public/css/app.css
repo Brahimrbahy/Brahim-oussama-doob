@@ -210,3 +210,35 @@ color: #FF3946;
     color:#000000b7;
     border: 2px solid white;
 }
+.section3 .box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+   box-shadow: 0 5px 9px 0 #a3a2a3;
+   padding: 15px;
+ 
+
+}
+.section3{
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.section3 .box1{
+    width: 21%;
+}
+.section3 .box1 .btn{
+    width: 175px;
+    height: 45px;
+    border: 2px solid #FF3946;
+    background-color: #FF3946;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    outline: none;
+    
+}
