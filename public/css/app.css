@@ -28,7 +28,7 @@ nav{
    color: black;
    
 }
-.link-nav div{
+.link-nav {
     display: flex;
     gap: 40px;
     transition: 1s ease;
@@ -260,15 +260,30 @@ color: #FF3946;
     outline: none;
     
 }
-.logo img{
-    width: 100px;
-    padding-top:10px ;
+.section3 .btn{
+    width: 175px;
 }
+.section3 h2{
+   font-size: x-large;
+   font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+label .fa-bars{
+    display:none;
+}
+ #check{
+    display: none;
+ }
+ .image-mobile{
+    display: none;
+ }
 
-@media (max-width: 767px){
-    
-    nav{
-        /* width: 90%; */
+ /**Mobile*/
+
+ @media (max-width: 767px) {
+    * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -340,9 +355,43 @@ color: #FF3946;
 
     .section3 {
         flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 20px;
+    }
 
+    .section3 .box {
+        width: 100%;
+        padding: 20px;
+    }
+    .section3 .box1 {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+    }
+    
 
-        
+    .image-desktop {
+        display: none;
+    }
+
+    .image-mobile {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .button {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .button-left-side  .btn1{
+      margin-bottom: 5px;
+    }
+    .button-left-side .btn2:hover{
+        background-color:#FF3946;
+        color: #fff;
 
     }
-}
+ }
