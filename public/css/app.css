@@ -22,7 +22,7 @@ nav{
    color: black;
    
 }
-.link-nav {
+.link-nav div{
     display: flex;
     gap: 40px;
     transition: 1s ease;
@@ -254,157 +254,27 @@ color: #FF3946;
     outline: none;
     
 }
-.section3 .btn{
-    width: 175px;
+.logo img{
+    width: 100px;
+    padding-top:10px ;
 }
-.section3 h2{
-   font-size: x-large;
-   font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-label .fa-bars{
-    display:none;
-}
- #check{
-    display: none;
- }
- .image-mobile{
-    display: none;
- }
 
- /**Mobile*/
-
- @media (max-width: 767px) {
-    * {
+@media (max-width: 767px){
+    
+    nav{
+        /* width: 90%; */
         padding: 0;
-        margin: 0;
-        box-sizing: border-box;
     }
-
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-       
-    }
-    nav button{
-        display: none;
-    }
-
-    .logo img {
+    .logo{
         width: 50px;
+        height: 300px;
     }
-
-    nav .link-nav {
+    .logo .link-nav div {
+        display: flex;
         flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: -100%;
-        background-color: #fff;
-        width: 100%;
-        text-align: center;
-        transition: left 0.3s ease-in-out;
-        padding: 20px 0;
-        font-size: large;
+
+
         
 
     }
-
-<<<<<<< HEAD
-    #check:checked + .link-nav {
-        left: 0;
-=======
-    .s3{
-        padding-inline: 60px;
-        padding-top: 150px;
->>>>>>> 9f882d4cbd6f42ab005e278bf57c22197938e8ce
-    }
-
-    label .fa-bars {
-        display: block;
-        font-size: 24px;
-        cursor: pointer;
-    }
-
-    .second-part {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .left-side, .right-side {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .left-side h1 {
-        font-size: 1.8rem;
-        line-height: 2.2rem;
-    }
-
-    .left-side p {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    .section3 {
-        flex-direction: column;
-        gap: 20px;
-        height: auto;
-        padding: 20px;
-    }
-
-    .section3 .box {
-        width: 100%;
-        padding: 20px;
-    }
-    .section3 .box1 {
-       width: 100%;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       text-align: center;
-    }
-    
-
-    .image-desktop {
-        display: none;
-    }
-
-    .image-mobile {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    .button {
-        padding-top: 30px;
-        text-align: center;
-    }
-    .button-left-side  .btn1{
-      margin-bottom: 5px;
-    }
-    .button-left-side .btn2:hover{
-        background-color:#FF3946;
-        color: #fff;
-
-    }
-
-   
-
-   
-  
-   
-
-   
-    
-    
-    
-    
 }
-
-
