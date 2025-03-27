@@ -16,6 +16,7 @@ nav{
   font-style: normal;
    font-optical-sizing: auto;
 }
+
 .link-nav a{
    text-decoration: none;
    color: black;
@@ -23,7 +24,6 @@ nav{
 }
 .link-nav {
     display: flex;
-    flex-direction: row;
     gap: 40px;
     transition: 1s ease;
 }
@@ -37,6 +37,9 @@ nav button{
     background-color: beige;
     
 
+}
+nav img{
+    width: 100px;
 }
 
 footer{
@@ -53,6 +56,7 @@ footer h4{
     padding: 0;
 
 }
+
 footer h3{
     color: #FF3946;
     font-size: 40px;
@@ -101,6 +105,7 @@ footer i{
     padding: 0px 20px;
     color: #314584;
     margin-bottom: 15px;
+
 }
 .text input {
     width: 600px;
@@ -214,6 +219,9 @@ color: #FF3946;
     color:#000000b7;
     border: 2px solid white;
 }
+.btn2:hover{
+    background-color: #FF3946;
+}
 .section3 .box {
     width: 20%;
     display: flex;
@@ -230,13 +238,13 @@ color: #FF3946;
     height: 300px;
     justify-content: center;
     margin-bottom: 20px;
-    padding-top: 30px;
+     padding-top: 30px; 
+     
 }
 .section3 .box1{
     width: 21%;
 }
 .section3 .box1 .btn{
-    width: 175px;
     height: 45px;
     border: 2px solid #FF3946;
     background-color: #FF3946;
@@ -246,68 +254,151 @@ color: #FF3946;
     outline: none;
     
 }
+.section3 .btn{
+    width: 175px;
+}
+.section3 h2{
+   font-size: x-large;
+   font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+label .fa-bars{
+    display:none;
+}
+ #check{
+    display: none;
+ }
+ .image-mobile{
+    display: none;
+ }
 
+ /**Mobile*/
 
-
-@media (max-width: 767px) {
-
-    *{
+ @media (max-width: 767px) {
+    * {
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
     }
-    footer {
-        background-color: #314584;
-        width: 767px;
-        height: 500px;
-        text-align: center;
-        padding: 70px 0px 0px 0px;
-    }
-    footer h4 {
-        color: #fff;
-        padding-bottom: 10px;
-    }
-    footer h3 {
-        color: #FF3946;
-        font-size: 3rem;
-        margin-bottom: 30px;
-    }
-    .aaa a {
 
-        color: #fff;
-        font-size: 1.1rem;
-        padding: 20px 20px;
-    }
-    .aaa{
+
+    nav {
         display: flex;
-        gap: 1px;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
+        padding: 10px 20px;
+       
+    }
+    nav button{
+        display: none;
     }
 
-    .subt{
-        display: unset;
+    .logo img {
+        width: 50px;
     }
 
-    .textarea input{
-        background-color: #F4FAFE;
-        border: none;
-        width: 600px;
-        padding: 50px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        color: #314584;
-        padding-bottom: 50px;
-    
-    }
-
-    .button{
+    nav .link-nav {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        background-color: #fff;
+        width: 100%;
         text-align: center;
-        padding-top: 60px;
-        padding-left: 160px;
+        transition: left 0.3s ease-in-out;
+        padding: 20px 0;
+        font-size: large;
+        
+
     }
 
-    .s3{
-        padding-inline: 20px;
+    #check:checked + .link-nav {
+        left: 0;
     }
 
-  }
+    label .fa-bars {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .second-part {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .left-side h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .left-side p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .section3 {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .section3 .box {
+        width: 100%;
+        padding: 20px;
+    }
+    .section3 .box1 {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+    }
+    
+
+    .image-desktop {
+        display: none;
+    }
+
+    .image-mobile {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .button {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .button-left-side  .btn1{
+      margin-bottom: 5px;
+    }
+    .button-left-side .btn2:hover{
+        background-color:#FF3946;
+        color: #fff;
+
+    }
+
+   
+
+   
+  
+   
+
+   
+    
+    
+    
+    
+}
+
+
