@@ -314,8 +314,14 @@ label .fa-bars{
 
     }
 
+<<<<<<< HEAD
     #check:checked + .link-nav {
         left: 0;
+=======
+    .s3{
+        padding-inline: 60px;
+        padding-top: 150px;
+>>>>>>> 9f882d4cbd6f42ab005e278bf57c22197938e8ce
     }
 
     label .fa-bars {
