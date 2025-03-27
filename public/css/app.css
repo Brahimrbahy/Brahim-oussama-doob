@@ -16,6 +16,12 @@ nav{
   font-style: normal;
    font-optical-sizing: auto;
 }
+.link-nav div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
 
 .link-nav a{
    text-decoration: none;
