@@ -16,6 +16,12 @@ nav{
   font-style: normal;
    font-optical-sizing: auto;
 }
+.link-nav div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
 
 .link-nav a{
    text-decoration: none;
@@ -264,13 +270,75 @@ color: #FF3946;
     nav{
         /* width: 90%; */
         padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
-    .logo{
-        width: 50px;
-        height: 300px;
-    }
-    .logo .link-nav div {
+
+
+    nav {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+       
+    }
+    .link-nav div{
+        flex-direction: column;
+    }
+    nav button{
+        display: none;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    nav .link-nav {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: left 0.3s ease-in-out;
+        padding: 20px 0;
+        font-size: large;
+    }
+
+    #check:checked + .link-nav {
+        left: 0;
+    }
+
+    label .fa-bars {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .second-part {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .left-side h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    .left-side p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .section3 {
         flex-direction: column;
 
 
