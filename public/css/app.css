@@ -297,6 +297,9 @@ label .fa-bars{
         padding: 10px 20px;
        
     }
+    .link-nav div{
+        flex-direction: column;
+    }
     nav button{
         display: none;
     }
