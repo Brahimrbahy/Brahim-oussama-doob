@@ -319,8 +319,6 @@ label .fa-bars{
         transition: left 0.3s ease-in-out;
         padding: 20px 0;
         font-size: large;
-        
-
     }
 
     #check:checked + .link-nav {
